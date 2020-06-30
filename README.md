@@ -1,3 +1,6 @@
+## REACT BASED APP
+react based weather app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
