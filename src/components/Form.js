@@ -4,7 +4,15 @@ class Form extends Component {
     render() {
         return (
             <div>
-               <h1>Form</h1>
+               <form onSubmit={this.props.getWeather}>
+                   <label>City:</label><br></br>
+                   <input type='text' name="city" placeholder='city'/>
+                   <br></br>
+                   <label>Country:</label><br></br>
+                   <input type='text' name="country" placeholder='country'/>
+                   <br></br>
+                   <button>get weather</button>
+               </form>
             </div>
         )
     }
